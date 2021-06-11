@@ -1,0 +1,8 @@
+node_modules
+# Variables
+# .env          # Uncomment to not upload your Variables
+# Sécurité
+*.key
+*.pem
+*.cer
+*.cnf

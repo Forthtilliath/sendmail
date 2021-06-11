@@ -1,0 +1,23 @@
+{
+   "name": "sendmail",
+   "version": "1.0.0",
+   "description": "API to send mail",
+   "main": "server.js",
+   "scripts": {
+      "start": "nodemon server.js"
+   },
+   "author": "Forth",
+   "license": "ISC",
+   "dependencies": {
+      "compression": "^1.7.4",
+      "dotenv": "^10.0.0",
+      "express": "^4.17.1",
+      "express-rate-limit": "^5.2.6",
+      "fs": "0.0.1-security",
+      "helmet": "^4.6.0",
+      "nocache": "^3.0.0",
+      "nodemailer": "^6.6.1",
+      "nodemon": "^2.0.7",
+      "pretty-error": "^3.0.4"
+   }
+}
